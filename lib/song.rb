@@ -31,7 +31,7 @@ class Song
     h = {}
   @@genres.each do |genres|
     if h.has_key?(genres) 
-      h[genres] += 1
+      h[genres] += 2
     else
       h[genres] = 0 
     end
