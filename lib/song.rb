@@ -27,4 +27,10 @@ class Song
     @@artists.uniq
   end
 
+  def self.genre_count
+    hash = Hash.new 
+    
+    @@genres.collect do |genre|
+      if hash.has_key
+
 end
