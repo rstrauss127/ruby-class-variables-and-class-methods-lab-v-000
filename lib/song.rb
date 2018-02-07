@@ -37,8 +37,8 @@ class Song
         hash[genre]
         hash[genre] = 0 
       end
+      return hash
     end
-    return hash
   end
 
 end
