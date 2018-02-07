@@ -34,6 +34,7 @@ class Song
       if hash.has_key?(genre)
         hash[genre] += 1 
       else
+        hash[genre]
         hash[genre] = 0 
       end
     end
