@@ -49,7 +49,7 @@ class Song
       else
         h[artist] = 1 
       end
-      return h
     end
+      return h
   end
 end
